@@ -1,0 +1,19 @@
+{
+  "name": "twitter-crawler",
+  "version": "1.0.0",
+  "description": "twitter crawler",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "joshdschneider",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "puppeteer": "^10.0.0"
+  }
+}
